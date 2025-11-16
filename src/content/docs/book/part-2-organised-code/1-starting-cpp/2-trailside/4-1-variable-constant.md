@@ -68,7 +68,7 @@ int main()
 Key changes include:
 
 - Using different libraries:
-  - We can access the SplashKit library using `#import "splashkit.h`.
+  - We can access the SplashKit library using `#include "splashkit.h"`.
   - We need `using std::to_string;` and `using std::stod;` to gain access to these C++ functions from the standard (`std`) library.
     - The [to_string](https://en.cppreference.com/w/cpp/string/basic_string/to_string) function is used to convert numbers to text.
     - In C/C++ you can use [stod](https://en.cppreference.com/w/cpp/string/basic_string/stof) to convert a string to a double. There is also [stoi](https://en.cppreference.com/w/cpp/string/basic_string/stol) to convert text to an integer.
