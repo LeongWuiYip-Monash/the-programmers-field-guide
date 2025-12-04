@@ -153,7 +153,7 @@ scanf("%d", &age);
 ```
 
 1. The first component, is the call to the `scanf` function.
-2. Next, we have the format string `"&d"`. The format string contains the placeholders to tell scanf what to read, with the values being copied into the other arguments. The same rules apply here as they do for `printf` - the `%d` is a placeholder for a decimal integer (a base-10 integer).
+2. Next, we have the format string `"%d"`. The format string contains the placeholders to tell scanf what to read, with the values being copied into the other arguments. The same rules apply here as they do for `printf` - the `%d` is a placeholder for a decimal integer (a base-10 integer).
 3. Finally, we have the `&age` argument. This is a pointer to the variable where the number (from the `%d` placeholder in the format string) will be stored. The `&` symbol is used to get the *address* of the `age` variable in this case.
 
 ### Clearing Errors
